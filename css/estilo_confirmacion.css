@@ -1,0 +1,21 @@
+body{
+background-image: url("file:///Users/Pipefehecar/Documents/sexto/web/votaciones/imgs/fondo.png");
+background-size: 300px;
+background-color: #dce8be;
+background-repeat: repeat;
+
+
+}
+#mensaje{
+border-radius: 3px;
+position: absolute;
+top: calc(50% - 75px);
+left: calc(50% - 175px);
+margin: auto;
+text-align: center;
+background-color: #e8e298;
+padding: 2px;
+width: 350px;
+height:150px;
+
+}

@@ -1,0 +1,30 @@
+body{
+	background: url("../imgs/fondo.png");
+	background-size: 300px;
+	background-color: #dce8be;
+	background-repeat: repeat;
+}
+#certificado{
+	background:url("../imgs/celectoral.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  text-align: center;
+  background-color: #d3dbd1;
+  padding: 0px;
+  width: 80%;
+  height:715px;
+}
+#nombre{
+	position: relative;
+	left:40%;
+	top:179.5%;
+	font-size: 24px;
+}
+#cedula{
+	position: relative;
+	left:75%;
+	top:149.5%;
+	font-size: 24px;
+}
