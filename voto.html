@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>El voto es secreto</title>
+		<script type="text/javascript" src="logica.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/estilo_voto.css">
+	</head>
+	<body>
+		<header>
+			
+		</header>
+		<section>
+			<div id="div_exterior" >
+				<ul id="encabezado">
+					<li>
+						<img src="imgs/bandera_logo.png">
+					</li>
+					<li id="titulo">
+						<h1 id="h1_titulo" >VOTO PARA PRESIDENTE Y VICEPRESIDENTE DE LA REPUBLICA DE COLOMBIA
+						</h1>
+					</li>
+					<li>
+						<img src="imgs/bandera_logo.png">
+					</li>
+				</ul>
+				<div id="div_interior">
+					<table id="candidatos">
+						<tr>
+							<td
+								onmouseout="afuera_candidato(this)"
+								onmouseover="sobre_candidato(this)"
+								onclick="click_candidato('ASA')">
+								<img src="imgs/asa.png" width="100%" id="ASA">
+							</td>
+							<td
+								onmouseout="afuera_candidato(this)"
+								onmouseover="sobre_candidato(this)"
+								onclick="click_candidato('VOZ')">
+								<img src="imgs/LaVoz.png" width="100%" id="VOZ">
+							</td>
+							<td
+								onmouseout="afuera_candidato(this)"
+								onmouseover="sobre_candidato(this)"
+								onclick="click_candidato('L')">
+								<img src="imgs/Liberal.png" width="100%" id="L">
+							</td>
+							<td
+								onmouseout="afuera_candidato(this)"
+								onmouseover="sobre_candidato(this)"
+								onclick="click_candidato('CR')">
+								<img src="imgs/CamRadi.png" width="100%"  id="CR">
+							</td>
+						</tr>
+						<tr>
+							<td
+								onmouseout="afuera_candidato(this)"
+								onmouseover="sobre_candidato(this)"
+								onclick="click_candidato('POLO')">
+								<img src="imgs/polo.png" width="100%" id="POLO">
+							</td>
+							<td
+								onmouseout="afuera_candidato(this)"
+								onmouseover="sobre_candidato(this)"
+								onclick="click_candidato('MAL')">
+								<img src="imgs/mal.png" width="100%" id="MAL">
+							</td>
+							
+							<td
+								onmouseout="afuera_candidato(this)"
+								onmouseover="sobre_candidato(this)"
+								onclick="click_candidato('C')">
+								<img src="imgs/c.png" width="100%" id="C">
+							</td>
+							<td
+								onmouseout="afuera_candidato(this)"
+								onmouseover="sobre_candidato(this)"
+								onclick="click_candidato('VERDE')">
+								<img src="imgs/verde.png" width="100%" id="VERDE">
+							</td>
+						</tr>
+						<tr>
+							<td
+								onmouseout="afuera_candidato(this)"
+								onmouseover="sobre_candidato(this)"
+								onclick="click_candidato('U')">
+								<img src="imgs/PartiU.png" width="100%" id="U">
+							</td>
+							<td
+								onmouseout="afuera_candidato(this)"
+								onmouseover="sobre_candidato(this)"
+								onclick="click_candidato('BLANCO')">
+								<img src="imgs/VBlanco.png" width="100%" id="BLANCO">
+							</td>
+							<td colspan="2" id="resultados">
+								<form id="f_resultados">
+									<h3 id="tl_resultados">RESULTADOS </h3>
+									<p >FECHA: <label id="fecha"></label></p>
+									
+									<p>PARTIDO: <label id="partido"></label> </p>
+									<label id="partido"></label>
+									
+									<input type="button" id="votar" value="VOTAR" onclick="certificado()">
+									<input type="button" id="cam_voto" value="cancelar voto" onclick="devuelve_login()">
+								</form>
+								
+							</td>
+						</tr>
+						
+					</table>
+					
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
