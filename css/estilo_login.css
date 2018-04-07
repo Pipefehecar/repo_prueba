@@ -1,7 +1,7 @@
 body{
 background: url("../imgs/fondo.png");
 background-size: 300px;
-background-color: #dce8be;
+background-color: #ecd8b2;
 background-repeat: repeat;
 }
 /*configuracion para el div del login*/
@@ -9,16 +9,18 @@ background-repeat: repeat;
 position: absolute;
 top: calc(50% - 75px);
 left: calc(50% - 175px);
+vertical-align: bottom;
 margin: auto;
 text-align: center;
-background-color: #d3dbd1;
+background-color: #3088e6;
 padding: 2px;
-width: 350px;
-height:150px;
+width: 400px;
+height:200px;
+border-radius: 30px;
 }
 /*tabla adentro del login*/
-#inside_login{margin: auto}
-#inside_login tr{margin: 10px}
+#inside_login{margin: 40px 40px 40px 40px; vertical-align: center}
+#inside_login tr{margin: 20px}
 .in_texfld{
 height: auto;
 width: auto;
